@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-styles vertical-line">Cars</div>
+        <div class="header-styles vertical-line">Trucks and Machinery</div>
+        <div class="header-styles vertical-line">Damaged & End of Life</div>
+        <div class="header-styles vertical-line">Boats & Marine</div>
+        <div class="header-styles vertical-line">Motorcycles & Scooters</div>
+        <div class="header-styles vertical-line">General Goods</div>
+        <div class="header-styles">Buses, Caravans & Motorhomes</div>
+    </header>
+
+    <div class="logo">
+        <div>
+            <img class="turners" src="logo.png" alt="logo" />
+        </div>
+        <div class="logo-text">
+            <div style="color: rgb(0, 102, 255); font-weight: bold">
+                <p>LOGIN <i>OR</i> REGISTER</p>
+            </div>
+            <p class="logo-text-margin">0800 887 637</p>
+            <p>Find Us</p>
+        </div>
+    </div>
+
+    <nav>
+        <div class="flex width margin space-around">
+            <div class="flex">
+                <h4 class="nav-links" onmouseover="searchBlock()">Search</h4>
+                <form class="form" action="http://localhost:4000/search" method="post" id="form">
+                    <input type="text" name="query" placeholder="search">
+                    <input type="submit">
+                </form>
+                <h4 class="nav-links">How to Buy</h4>
+                <h4 class="nav-links">Sell your car</h4>
+                <h4 class="nav-links">Find a Car</h4>
+
+            </div>
+            <div class="margin nav-links">Services & Information</div>
+        </div>
+    </nav>
+
+    <main class="width1">
+        <div class="flex faq">
+            <h2>Frequently Asked Questions About Online Auctions?</h2>
+            <div>
+                <div class="questions">
+                    <div class="flex space-between">
+                        <p>How can I bid on Turners Online Auctions?</p>
+                        <p>+</p>
+                    </div>
+                </div>
+                <div class="questions">
+                    <div class="flex space-between">
+                        <p>How can I bid on Turners Trade Me Auctions? </p>
+                        <p>+</p>
+                    </div>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="questions">
+                    <div class="flex space-between">
+                        <p>Why do I need to link my Turners account to Trade Me?</p>
+                        <p>+</p>
+                    </div>
+                </div>
+                <div class="questions">
+                    <div class="flex space-between">
+                        <p>What if I do not link my Turners account to Trade Me?</p>
+                        <p>+</p>
+                    </div>
+                </div>
+                <div class="questions">
+                    <div class="flex space-between">
+                        <p>What if I don't have a Trade Me account?</p>
+                        <p>+</p>
+                    </div>
+                </div>
+                <div class="questions">
+                    <div class="flex space-between">
+                        <p>What's the difference between online auctions and Turners live?</p>
+                        <p>+</p>
+                    </div>
+                </div>
+                <div class="questions">
+                    <div class="flex space-between">
+                        <p>What's an autobid?</p>
+                        <p>+</p>
+                    </div>
+                </div>
+                <div class="questions">
+                    <div class="flex space-between">
+                        <p>How do I place an autobid?</p>
+                        <p>+</p>
+                    </div>
+                    <p class="answers">An independent mechanical check will tell you whether there are any problems with
+                        the car that might make it unsafe to drive. For help arranging an independent mechanical
+                        inspection, contact your nearest dealership.
+                        You can also research general safety information for hundreds of cars at www.rightcar.co.nz</p>
+                </div>
+                <div class="questions">
+                    <div class="flex space-between">
+                        <p>What's a screen name?</p>
+                        <p>+</p>
+                    </div>
+                </div>
+                <div class="questions">
+                    <div class="flex space-between">
+                        <p>What payment options are there?</p>
+                        <p>+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer"></footer>
+    <footer class="bottomFooter"></footer>
+
+    
+
+</body>
+
+<script>
+
+    const form = document.querySelector(".form");
+    const image = document.querySelector(".image");
+
+</script>
+
+</html>

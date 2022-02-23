@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+    width: 100%;
+    overflow-x:hidden;
+    font-family:'Lato', sans-serif;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-styles {
+    padding: 5px 15px 0 15px;
+    color: rgb(0, 102, 255);
+}
+
+.vertical-line {
+    border-right: 1px solid gray;
+}
+
+.logo {
+    width: 67%;
+    padding: 30px 0 10px 0;
+    display: flex;
+    justify-content: space-between; 
+    margin: auto;
+}
+
+.logo-text {
+    display: flex;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(0, 110, 255);
+    display: flex;
+    color: white;
+    position: sticky;
+}
+
+.logo-text-margin {
+    margin-right:30px;
+    margin-left:30px;
+}
+
+.questions {
+    padding: 10px;
+    border: 1px solid gray
+}
+
+.answers {
+    display: none;
+}
+
+.flex {
+    display: flex
+}
+
+.start {
+    justify-content: start;
+}
+
+.center {
+    justify-content: center
+}
+
+.space-around{
+    justify-content: space-around
+}
+
+.space-between {
+    justify-content: space-between
+}
+
+.margin {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.width {
+    width: 100%;
+}
+
+.width1 {
+    width: 80%;
+    margin: 20px 0 80px 0;
+}
+
+.nav-links {
+    padding: 0 30px 0 0px;
+    font-weight: 900;
+}
+
+.form {
+    top: 20px;
+    position: relative;
+    padding: 0 30px 0 0;
+    font-weight: 900;
+    display: block;
+}
+
+.image {
+    top: 20px;
+    position: relative;
+    padding: 0 30px 0 0;
+    font-weight: 900;
+    display: none;
+}
+
+.faq {
+    flex-direction: column;
+    margin: auto;
+    width: 65%;
+    font-weight: 900;
+}
+
+.margin1 {
+    margin-top: 50px;
+    margin-bottom: 100px
+}
+
+.footer {
+    background-color: gray;
+    width: 100%;
+    height: 40vh;
+}
+
+.bottomFooter {
+    background-color:rgb(49, 49, 49);
+    width: 100%;
+    height: 7vh;
+}
